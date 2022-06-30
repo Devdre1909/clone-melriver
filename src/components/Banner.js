@@ -8,10 +8,10 @@ export default function Banner() {
         <div className="row">
           <h2>
             <div className="line">
-              <span>Creating unique Brand is</span>
+              <span>Creating unique brands is</span>
             </div>
             <div className="line">
-              <span>What we Do</span>
+              <span>what we do.</span>
             </div>
           </h2>
           <div className="btn-row">
