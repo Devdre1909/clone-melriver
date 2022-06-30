@@ -4,3 +4,8 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin calcHeight($vhNum: 50, $vh: 50vh) {
+  height: $vh;
+  height: calc(var(--vh, 1vh) * $vhNum);
+}

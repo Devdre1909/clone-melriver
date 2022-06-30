@@ -7,9 +7,12 @@
 @import "./components/header.scss";
 @import "./components/banner.scss";
 @import "./components/cases.scss";
+@import "./components/intro-overlay.scss";
 
 body,
 html {
+  visibility: hidden;
+  background-color: $black;
   user-select: none;
   background: $white;
   overscroll-behavior: none;
