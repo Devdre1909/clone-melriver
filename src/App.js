@@ -49,27 +49,6 @@ function App() {
     height: 0,
   });
 
-  useEffect(() => {
-    setVH();
-    debounceHandleResize();
-    window.addEventListener("resize", setVH);
-    window.addEventListener("resize", debounceHandleResize);
-
-    return () => {
-      window.removeEventListener("resize", setVH);
-      window.removeEventListener("resize", debounceHandleResize);
-    };
-  }, []);
-
-  useLayoutEffect(() => {
-    gsap.to("body", {
-      duration: 0,
-      css: {
-        visibility: "visible",
-      },
-    });
-  }, []);
-
   const setVH = () => {
     const vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
@@ -82,6 +61,27 @@ function App() {
       width: window.innerWidth,
     }));
   }, 1000);
+
+  useEffect(() => {
+    setVH();
+    debounceHandleResize();
+    window.addEventListener("resize", setVH);
+    window.addEventListener("resize", debounceHandleResize);
+
+    return () => {
+      window.removeEventListener("resize", setVH);
+      window.removeEventListener("resize", debounceHandleResize);
+    };
+  }, [debounceHandleResize]);
+
+  useLayoutEffect(() => {
+    gsap.to("body", {
+      duration: 0,
+      css: {
+        visibility: "visible",
+      },
+    });
+  }, []);
 
   return (
     <>

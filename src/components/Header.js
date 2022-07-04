@@ -1,6 +1,6 @@
 import gsap, { Expo } from "gsap";
 import React, { useEffect, useState } from "react";
-import { useNavigate, NavLink } from "react-router-dom";
+// import { useNavigate, NavLink } from "react-router-dom";
 import { ReactComponent as UpArrow } from "../assets/up-arrow-circle.svg";
 
 const tl = gsap.timeline();
