@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b539917ed126e9c5bae738fecf5e43f6",
+    "revision": "63ea257df164997cf8a08924c03c6e7c",
     "url": "/clone-melriver/index.html"
   },
   {
-    "revision": "316e4cab552663f4f7b7",
+    "revision": "bca789e0183d56328075",
     "url": "/clone-melriver/static/css/main.439903fd.chunk.css"
   },
   {
-    "revision": "5479bf99c46220d810b7",
-    "url": "/clone-melriver/static/js/2.8565c564.chunk.js"
+    "revision": "ea411148f15b175b4675",
+    "url": "/clone-melriver/static/js/2.400ca5a0.chunk.js"
   },
   {
     "revision": "e400dab2eb40d60cf160b3e9f69cb19b",
-    "url": "/clone-melriver/static/js/2.8565c564.chunk.js.LICENSE.txt"
+    "url": "/clone-melriver/static/js/2.400ca5a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "316e4cab552663f4f7b7",
-    "url": "/clone-melriver/static/js/main.82e7a5b3.chunk.js"
+    "revision": "bca789e0183d56328075",
+    "url": "/clone-melriver/static/js/main.3f1c2306.chunk.js"
   },
   {
     "revision": "0fa0c7005a675e870276",

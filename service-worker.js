@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/clone-melriver/precache-manifest.db75bfff7cd6b7142b2d7dc1d7772e26.js"
+  "/clone-melriver/precache-manifest.c19d1ffcf9113ad7c094193006d673cf.js"
 );
 
 self.addEventListener('message', (event) => {
